@@ -11,10 +11,12 @@
 	<groupId>com.dev.cicd</groupId>
 	<artifactId>data</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Hands-on-ci-cd-for-springboot-apps</name>
-	<description>Demo project for Spring Boot with CI/CD</description>
+	<name>github-actions-ci-cd-sprint-boot</name>
+	<description>Spring Boot with CI/CD</description>
 	<properties>
 		<java.version>11</java.version>
+		<sonar.organization>sarasagunawardhana</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 	<dependencies>
 		<dependency>
